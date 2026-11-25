@@ -34,6 +34,12 @@ NetSync 只做一件事：**在你自己的局域网里，把两个文件夹同�
 - **设备管理**：同步拓扑图实时显示在线 / 离线，可单独暂停某台手机的同步
 - **零外部依赖**：Mac 端是原生 App，不需要 Docker、数据库或常驻终端
 
+## 截图
+
+| Mac 端 | Android 端 |
+|---|---|
+| <img src="docs/screenshots/mac.png" width="720" alt="Mac 端：二维码配对与同步拓扑"> | <img src="docs/screenshots/android.png" width="260" alt="Android 端：设备连接与文件夹同步"> |
+
 ## 工作方式
 
 ```text
