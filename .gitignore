@@ -1,0 +1,31 @@
+# 运行时状态：配对令牌、二维码、本机文件清单，绝不入库
+state/
+.netsync/
+
+# 本机环境（解释器路径等）
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+
+# 构建产物（发布走 GitHub Releases）
+out/
+NetSync.app/
+android/build/
+android/app/build/
+android/.gradle/
+android/local.properties
+
+# 签名材料
+*.jks
+*.keystore
+*.p12
+
+# 系统/编辑器
+.DS_Store
+.AppleDouble
+._*
+.idea/
+.vscode/
+*.swp
